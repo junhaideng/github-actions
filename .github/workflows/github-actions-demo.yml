@@ -18,4 +18,4 @@ jobs:  # 需要运行的job，可以有多个
       - name: use enviroment variables
         env:    
             HOST: 127.0.0.1
-        run: echo "host is ${{ HOST }}"
+        run: echo "host is $HOST"
